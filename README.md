@@ -320,3 +320,14 @@ xhqm 是一个架构成熟、多后端抽象完整、覆盖数学/渲染/网络/
 ---
 
 > **下一步该看什么**：本文件的第 2–6 节是模块全景（定位/优势/劣势/缺失/建议），**不是缺陷台账**。要接手修问题，直接看 `DEBUG.md`（根模块的当前问题清单，每条带 `文件:行号`）；模块级细节与历史台账见各子目录：`fantasy/fantasy_bugs.md`（static-analysis 清单 + 逐轮修复记录）、`network/nebula/DEFERRED.md`（讨论过但暂不做的事项）、以及各模块自己的 `README.md`。
+
+
+---
+
+## 许可
+
+Apache License 2.0，见 `LICENSE`。
+
+```
+Copyright 2026 Stella Mira (星辉澪)
+```
