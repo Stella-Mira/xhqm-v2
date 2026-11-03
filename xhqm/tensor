@@ -1,0 +1,6 @@
+
+#include "../algebra/tensor/tensor.h"
+#include "../algebra/tensor/store.h"
+#include "../algebra/tensor/complex.hpp"
+#include "../algebra/tensor/quaternion.hpp"
+#include "../algebra/tensor/dualnum.hpp"

@@ -1,0 +1,10 @@
+
+#include "../software/pattern/thread_mode.h"
+#include "../software/pattern/instance.h"
+#include "../software/pattern/observer.h"
+#include "../software/pattern/notifier.h"
+#include "../software/pattern/factory.h"
+#include "../software/pattern/strategy.h"
+#include "../software/pattern/command.h"
+#include "../software/pattern/chain.h"
+#include "../software/pattern/state_machine.h"

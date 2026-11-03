@@ -1,0 +1,34 @@
+# 构建产物
+build/
+build-*/
+b-*/
+_build*/
+out/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.gcda
+*.gcno
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.sln.DotSettings.user
+.vs/
+.vscode/
+.idea/
+
+# SVN 元数据
+.svn/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+*.log

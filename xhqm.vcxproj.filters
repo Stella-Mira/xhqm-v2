@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="network">
+      <UniqueIdentifier>{af89989c-6f06-43c4-bbaa-6c05e49bb10c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\astral">
+      <UniqueIdentifier>{d614370c-b383-4b3c-bbf9-0f3b289cb078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\nebula">
+      <UniqueIdentifier>{82896f68-fc17-41d9-9a95-4bfa80dbf80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algebra">
+      <UniqueIdentifier>{deb09236-c80b-455e-8e35-0d97af050637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="software">
+      <UniqueIdentifier>{7877584e-543b-4a98-b82c-0dbed0c94a3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="software\system">
+      <UniqueIdentifier>{5dc91a6c-3b71-4ecf-92bd-348b3f292e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="software\system\process">
+      <UniqueIdentifier>{4cbc0c15-8f71-4ef8-b545-fa6c05f9ded2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="software\system\threads">
+      <UniqueIdentifier>{885499dc-4421-41db-bf73-607c08e89af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\nebula\addr">
+      <UniqueIdentifier>{e9e65fb3-08b8-4f75-90be-045d111ec975}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="head.h" />
+    <ClInclude Include="xhqm.h" />
+    <ClInclude Include="network\aes.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\base64.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\cs.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\des.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\httplib.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\json.hpp">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\license.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\md2.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\md4.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\md5.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\mmap.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\network.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\sha.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\socket.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\tcp.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\udp.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\uuid.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\astral\astral.h">
+      <Filter>network\astral</Filter>
+    </ClInclude>
+    <ClInclude Include="network\astral\kernel.h">
+      <Filter>network\astral</Filter>
+    </ClInclude>
+    <ClInclude Include="network\astral\mmap_index.h">
+      <Filter>network\astral</Filter>
+    </ClInclude>
+    <ClInclude Include="network\astral\thing.h">
+      <Filter>network\astral</Filter>
+    </ClInclude>
+    <ClInclude Include="network\nebula\find.h">
+      <Filter>network\nebula</Filter>
+    </ClInclude>
+    <ClInclude Include="network\nebula\post.h">
+      <Filter>network\nebula</Filter>
+    </ClInclude>
+    <ClInclude Include="network\nebula\star.h">
+      <Filter>network\nebula</Filter>
+    </ClInclude>
+    <ClInclude Include="network\nebula\zero.h">
+      <Filter>network\nebula</Filter>
+    </ClInclude>
+    <ClInclude Include="algebra\ctype.h">
+      <Filter>algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="algebra\ftype.h">
+      <Filter>algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="algebra\itype.h">
+      <Filter>algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="algebra\mathf.h">
+      <Filter>algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="algebra\value.h">
+      <Filter>algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="software\system\process\process_base.h">
+      <Filter>software\system\process</Filter>
+    </ClInclude>
+    <ClInclude Include="software\system\threads\exist.h">
+      <Filter>software\system\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="software\system\threads\lock_mutex.h">
+      <Filter>software\system\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="software\system\threads\threads_pool.h">
+      <Filter>software\system\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="software\system\threads\threads_task.h">
+      <Filter>software\system\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="network\nebula\link.h">
+      <Filter>network\nebula</Filter>
+    </ClInclude>
+    <ClInclude Include="software\signal.h">
+      <Filter>software</Filter>
+    </ClInclude>
+    <ClInclude Include="software\system\timesys.h">
+      <Filter>software\system</Filter>
+    </ClInclude>
+    <ClInclude Include="software\system\codesys.h">
+      <Filter>software\system</Filter>
+    </ClInclude>
+    <ClInclude Include="software\system\execsys.h">
+      <Filter>software\system</Filter>
+    </ClInclude>
+    <ClInclude Include="software\system\filesys.h">
+      <Filter>software\system</Filter>
+    </ClInclude>
+    <ClInclude Include="software\system\libmange.h">
+      <Filter>software\system</Filter>
+    </ClInclude>
+    <ClInclude Include="software\system\process.h">
+      <Filter>software\system</Filter>
+    </ClInclude>
+    <ClInclude Include="software\system\threads.h">
+      <Filter>software\system</Filter>
+    </ClInclude>
+    <ClInclude Include="network\astral\evoke.h">
+      <Filter>network\astral</Filter>
+    </ClInclude>
+    <ClInclude Include="network\nebula\nebula.h">
+      <Filter>network\nebula</Filter>
+    </ClInclude>
+    <ClInclude Include="network\nebula\addr\addr_b.h">
+      <Filter>network\nebula\addr</Filter>
+    </ClInclude>
+    <ClInclude Include="network\nebula\data.h">
+      <Filter>network\nebula</Filter>
+    </ClInclude>
+    <ClInclude Include="network\nebula\addr\addr_uuid.h">
+      <Filter>network\nebula\addr</Filter>
+    </ClInclude>
+    <ClInclude Include="network\nebula\addr\addr_ipv4.h">
+      <Filter>network\nebula\addr</Filter>
+    </ClInclude>
+    <ClInclude Include="network\nebula\addr\addr_serial.h">
+      <Filter>network\nebula\addr</Filter>
+    </ClInclude>
+    <ClInclude Include="network\nebula\addr\addr_ipv6.h">
+      <Filter>network\nebula\addr</Filter>
+    </ClInclude>
+    <ClInclude Include="network\nebula\addr.h">
+      <Filter>network\nebula</Filter>
+    </ClInclude>
+    <ClInclude Include="network\nebula\life.h">
+      <Filter>network\nebula</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="network\aes.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\base64.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\des.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\license.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\md2.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\md4.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\md5.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\mmap.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\network.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\sha.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\socket.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\tcp.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\udp.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\uuid.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\astral\kernel.cpp">
+      <Filter>network\astral</Filter>
+    </ClCompile>
+    <ClCompile Include="network\astral\mmap_index.cpp">
+      <Filter>network\astral</Filter>
+    </ClCompile>
+    <ClCompile Include="network\astral\thing.cpp">
+      <Filter>network\astral</Filter>
+    </ClCompile>
+    <ClCompile Include="algebra\ctype.cpp">
+      <Filter>algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="algebra\ftype.cpp">
+      <Filter>algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="algebra\itype.cpp">
+      <Filter>algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="software\system\process\process_base.cpp">
+      <Filter>software\system\process</Filter>
+    </ClCompile>
+    <ClCompile Include="software\system\threads\threads_pool.cpp">
+      <Filter>software\system\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="network\nebula\link.cpp">
+      <Filter>network\nebula</Filter>
+    </ClCompile>
+    <ClCompile Include="software\signal.cpp">
+      <Filter>software</Filter>
+    </ClCompile>
+    <ClCompile Include="software\system\timesys.cpp">
+      <Filter>software\system</Filter>
+    </ClCompile>
+    <ClCompile Include="software\system\codesys.cpp">
+      <Filter>software\system</Filter>
+    </ClCompile>
+    <ClCompile Include="software\system\execsys.cpp">
+      <Filter>software\system</Filter>
+    </ClCompile>
+    <ClCompile Include="software\system\filesys.cpp">
+      <Filter>software\system</Filter>
+    </ClCompile>
+    <ClCompile Include="software\system\libmange.cpp">
+      <Filter>software\system</Filter>
+    </ClCompile>
+    <ClCompile Include="network\astral\evoke.cpp">
+      <Filter>network\astral</Filter>
+    </ClCompile>
+    <ClCompile Include="network\nebula\nebula.cpp">
+      <Filter>network\nebula</Filter>
+    </ClCompile>
+    <ClCompile Include="network\nebula\find.cpp">
+      <Filter>network\nebula</Filter>
+    </ClCompile>
+    <ClCompile Include="network\nebula\post.cpp">
+      <Filter>network\nebula</Filter>
+    </ClCompile>
+    <ClCompile Include="network\nebula\zero.cpp">
+      <Filter>network\nebula</Filter>
+    </ClCompile>
+    <ClCompile Include="network\nebula\addr\addr_b.cpp">
+      <Filter>network\nebula\addr</Filter>
+    </ClCompile>
+    <ClCompile Include="network\nebula\data.cpp">
+      <Filter>network\nebula</Filter>
+    </ClCompile>
+    <ClCompile Include="network\nebula\addr\addr_uuid.cpp">
+      <Filter>network\nebula\addr</Filter>
+    </ClCompile>
+    <ClCompile Include="network\nebula\addr\addr_ipv4.cpp">
+      <Filter>network\nebula\addr</Filter>
+    </ClCompile>
+    <ClCompile Include="network\nebula\addr\addr_serial.cpp">
+      <Filter>network\nebula\addr</Filter>
+    </ClCompile>
+    <ClCompile Include="network\nebula\addr\addr_ipv6.cpp">
+      <Filter>network\nebula\addr</Filter>
+    </ClCompile>
+    <ClCompile Include="network\nebula\addr.cpp">
+      <Filter>network\nebula</Filter>
+    </ClCompile>
+    <ClCompile Include="network\nebula\life.cpp">
+      <Filter>network\nebula</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="network\README.md">
+      <Filter>network</Filter>
+    </None>
+    <None Include="network\astral\README.md">
+      <Filter>network\astral</Filter>
+    </None>
+    <None Include="software\system\README.md">
+      <Filter>software\system</Filter>
+    </None>
+  </ItemGroup>
+</Project>

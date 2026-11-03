@@ -1,0 +1,8 @@
+
+#include "../fantasy/fantasy.h"
+#include "../fantasy/colors.h"
+#include "../fantasy/drawer.h"
+#include "../fantasy/blurry.h"
+#include "../fantasy/system.h"
+#include "../fantasy/element.h"
+#include "../fantasy/property.h"

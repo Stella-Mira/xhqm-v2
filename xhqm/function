@@ -1,0 +1,6 @@
+
+#include "../metaclass/function/function.h"
+#include "../metaclass/function/function_type.h"
+#include "../metaclass/function/function_call.h"
+#include "../metaclass/function/class_type.h"
+#include "../metaclass/function/symbols_has.h"

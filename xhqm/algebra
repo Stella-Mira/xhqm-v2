@@ -1,0 +1,7 @@
+#include "../algebra/value.h"
+#include "../algebra/mathf.h"
+#include "../algebra/itype.h"
+#include "../algebra/ftype.h"
+#include "../algebra/ctype.h"
+#include "../algebra/tensor/complex.hpp"
+#include "../algebra/tensor/dualnum.hpp"
